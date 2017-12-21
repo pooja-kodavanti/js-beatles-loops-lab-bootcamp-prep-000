@@ -5,8 +5,9 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return array
 }
-const exclaimfacts = []
+
 function johnLennonFacts() {
+  const exclaimfacts = []
   const facts = [
     "He was the last Beatle to learn to drive",
     "He was never a vegetarian",
@@ -15,7 +16,7 @@ function johnLennonFacts() {
   let i = 0
   while (i < facts.length) {
     exclaimfacts.push(`${facts[i]}!!!`)
-    i++;
+    i++
   }
   return exclaimfacts
 }
