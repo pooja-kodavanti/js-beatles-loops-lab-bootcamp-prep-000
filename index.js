@@ -21,6 +21,8 @@ function johnLennonFacts() {
   return exclaimfacts
 }
 
+johnLennonFacts(['foo', 'bar'])
+
 function iLoveTheBeatles(n) {
   var array = []
   do {
