@@ -12,14 +12,13 @@ function johnLennonFacts() {
     "He was never a vegetarian",
     "He was a choir boy and boy scout",
     "He hated the sound of his own voice"]
-  var i = 0
-  while (facts[i]) {
-    return facts[i] + "!!!"
-    //facts.splice(0, 1, facts[0] + "!!!")
-    //facts.splice(i, 1, facts[i] + "!!!")
+  const exclaimfacts = []
+  let i = 0
+  while (i < facts.length) {
+    exclaimfacts.push(`${facts[i]}!!!`)
     i++;
   }
-  return facts
+  return exlaimfacts
 }
 
 function iLoveTheBeatles(n) {
