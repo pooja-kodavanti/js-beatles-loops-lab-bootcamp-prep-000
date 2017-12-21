@@ -17,7 +17,7 @@ function johnLennonFacts() {
     exclaimfacts.push(`${facts[i]}!!!`)
     i++;
   }
-  return exlaimfacts
+  return exclaimfacts
 }
 
 function iLoveTheBeatles(n) {
