@@ -21,6 +21,17 @@ function johnLennonFacts() {
   return exclaimfacts
 }
 
+function johnLennonFacts(array) {
+  const shout = []
+  let i = 0
+  while (i < array.length) {
+    shout.push(`${array[i]}!!!`)
+    i++
+  }
+  return shout
+}
+
+
 johnLennonFacts(['foo', 'bar'])
 
 function iLoveTheBeatles(n) {
